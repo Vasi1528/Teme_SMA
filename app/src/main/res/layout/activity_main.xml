@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="Teme laborator SMA"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="30dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hw1vw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="1.Tema cu 3 activitati:" />
+
+                <Button
+                    android:id="@+id/hw1btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/round_button"
+                    android:text="Redirectioneaza" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hw2vw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="2.Tema cu dialog:" />
+
+                <Button
+                    android:id="@+id/hw2btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/blue_round_button"
+                    android:text="Redirectioneaza" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hw3vw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="3.Tema cu liste:" />
+
+                <Button
+                    android:id="@+id/hw3btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/green_round_button"
+                    android:text="Redirectioneaza" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hw4vw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:text="4.Tema cu citire si scriere:" />
+
+                <Button
+                    android:id="@+id/hw4btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:background="@drawable/purple_round_button"
+                    android:text="Redirectioneaza" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

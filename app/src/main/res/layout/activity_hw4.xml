@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tema 4"
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+<EditText
+    android:id="@+id/preftxt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="Introduceti nume"/>
+    <EditText
+        android:id="@+id/pref2txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Introduceti descriere"/>
+
+    <Button
+        android:id="@+id/showbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adauga preferinta"/>
+    <EditText
+        android:id="@+id/searchtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Introduceti numele cautat"/>
+    <Button
+        android:id="@+id/showanswerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adauga preferinta"/>
+
+    <EditText
+        android:id="@+id/hiddentxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/filebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Citeste fisier"/>
+    <Button
+        android:id="@+id/filewrbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scrie continut fisier"/>
+    <EditText
+        android:id="@+id/hiddenfiletxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>
